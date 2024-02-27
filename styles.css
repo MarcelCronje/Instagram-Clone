@@ -134,6 +134,8 @@
     display: flex;
     gap: 0.75rem;
     padding: 0rem 0.75rem;
+    overflow: auto;
+    
   }
   
   #nav > .nav-toolbar > button {
