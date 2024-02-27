@@ -181,7 +181,7 @@
   }
   
   #content > .section > .section-content {
-    width: calc(100% - 0.75rem);
+    width: calc(100% - 0rem);
     background-color: rgb(var(--theme-dark));
     padding: 0.75rem;
     overflow: auto;
@@ -221,7 +221,12 @@
     width: 5em;
     height: 5em;
     object-fit: cover;
+    padding: 4px;
     object-position: center;
+    background: linear-gradient(#1F2126, #1F2126) padding-box,
+                linear-gradient(to right, #ff7b00, #ff3636, darkorchid) border-box;
+    border-radius: 50em;
+    border: 2px solid transparent;
   }
   
   #content > .section > .section-content > .section-content-items > .section-item > .title {
