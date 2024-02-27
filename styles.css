@@ -162,7 +162,7 @@
   #content {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    /* gap: 1rem; */
     /* margin-top: 1rem; */
     padding-bottom: 4.25rem;
   }
