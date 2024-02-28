@@ -61,7 +61,8 @@
   }
   
   #phone {
-    background-color: rgb(var(--theme-background));
+    /* background-color: rgb(var(--theme-background)); */
+    background-color: #000000;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
     height: 851px;
     width: 393px;  
@@ -72,7 +73,8 @@
   
   #main-wrapper {
     height: 100%;
-    background-color: rgb(var(--theme-medium));
+    background-color: #000000;
+    /* background-color: rgb(var(--theme-medium)); */
     overflow: auto;
   }
   
@@ -87,7 +89,8 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    background-color: rgb(var(--theme-dark));
+    background-color: #000000;
+    /* background-color: rgb(var(--theme-dark)); */
     padding: 0.75rem;
   }
   
@@ -182,7 +185,8 @@
   
   #content > .section > .section-content {
     width: calc(100% - 0rem);
-    background-color: rgb(var(--theme-dark));
+    background-color: #000000;
+    /* background-color: rgb(var(--theme-dark)); */
     padding: 0.75rem;
     overflow: auto;
   }
@@ -348,7 +352,8 @@
     bottom: 0px;
     left: 0px;
     z-index: 2;
-    background-color: rgb(var(--theme-dark));
+    background-color: #000000;
+    /* background-color: rgb(var(--theme-dark)); */
   }
   
   #bottom-nav > a {
